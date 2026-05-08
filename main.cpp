@@ -8,7 +8,7 @@ int main() {
 
     // Mac dinh: so sanh Checkerboard voi Hunt & Target trong 10 tran.
     // Co the doi thanh StrategyType::Random de thu Random Strategy.
-    Simulation simulation(StrategyType::Checkerboard, StrategyType::HuntTarget, 10);
+    Simulation simulation(StrategyType::Random, StrategyType::Random, 10);
     simulation.run10Games();
 
     return 0;
